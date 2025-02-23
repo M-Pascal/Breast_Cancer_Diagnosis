@@ -57,10 +57,7 @@ Each model is evaluated using the following metrics:
 
 ## How to Run the Notebook
 ### 1. Install Dependencies
-Make sure you have all the required dependencies installed. Run the following command:
-```bash
-pip install -r requirements.txt
-```
+Make sure you have all the required dependencies installed.
 
 ### 2. Open and Run the Jupyter Notebook
 Launch Jupyter Notebook and open `Summative_Intro_to_ml_[Pascal_Mugisha]_assignment.ipynb`. Run all the cells sequentially to train and evaluate the models.

@@ -98,6 +98,7 @@ y_pred_best = make_predictions(best_model_path, X_test)
 ## Conclusion
 This project provides a machine learning-based approach to improve **early breast cancer detection** in Rwanda. By leveraging deep learning and traditional models, it aims to enhance screening accuracy and accessibility for better patient outcomes.
 
-Here is link to the [YouTube_Demo video.mp4](https://youtu.be/cmCICOqp16g)
+## Important Link:
+>- **Here is link to the [YouTube_Demo video.mp4](https://youtu.be/cmCICOqp16g)**
 
-Github Link to [Notebook](https://github.com/M-Pascal/Breast_Cancer_Diagnosis/blob/main/Summative_Intro_to_ml_%5BPascal_Mugisha%5D_assignment.ipynb)
+>- **Github Link to [Notebook.ipynb](https://github.com/M-Pascal/Breast_Cancer_Diagnosis/blob/main/Summative_Intro_to_ml_%5BPascal_Mugisha%5D_assignment.ipynb)**

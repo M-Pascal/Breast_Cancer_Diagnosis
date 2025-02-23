@@ -48,7 +48,7 @@ Each model is evaluated using the following metrics:
 
 | Training Instance | Optimizer Used | Regularizer Used | Epochs | Early Stopping | Number Of Layers | Learning Rate | Accuracy | Recall | Precision | F1 Score |
 | ----------------- | -------------- | ---------------- | ------ | -------------- | ---------------- | ------------- | -------- | ------ | -------- | --------- |
-| Instance 1        | None           | None             | None     | False             | 3                | Default       | 96%      | 0.9375   | 0.9375     | 0.9375     |
+| Instance 1        | None           | None             | None     | False             | 3                | Default       | 96.49%      | 0.9375   | 0.9375     | 0.9375     |
 | Instance 2        | Adam           | L2               | 50     | True            | 3                | 0.0001        | 98.25%      | 1.000   |0.9412     | 0.9697     |
 | Instance 3        | SGD        | L2               | 70     | True            | 5                | 0.005        | 98.25%      | 1.000   | 0.9412     | 0.9697      |
 | Instance 4        | RMSprop          | L1               | 100     | True            | 4                | 0.00001        | 98.25%      | 1.000   | 0.9412     | 0.9697      |

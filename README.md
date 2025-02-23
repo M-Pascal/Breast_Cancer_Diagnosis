@@ -54,6 +54,13 @@ Each model is evaluated using the following metrics:
 | Instance 4        | RMSprop          | L1               | 100     | True            | 4                | 0.00001        | 98.25%      | 1.000   | 0.9412     | 0.9697      |
 | Instance 5        | Adagrad        | L1\_L2           | 150     | True            | 4                | 0.0001         | 100%      | 1.000   | 1.000     | 1.000      |
 
+## Classical Model (Logistic Regression) Vs Neural Network Model (All models)
+**Analysis:**
+- The classical Logistic Regression model achieves an F1-score of 0.98, which is on par with the neural networks using Adam, SGD, and RMSprop.
+- Instance 5 (Neural Network with Adagrad + L1_L2 Regularization) outperforms the classical model with perfect scores (100%). Although `perfect is Imperfection in ML` as Facilitator said.
+- Instance 1 (no regularization) performs the worst among the neural networks, with an F1-score of 0.9375.
+- Neural Networks with L2 or L1 regularization (Instances 2, 3, and 4) match the classical model’s 98.25% accuracy and have slightly higher recall but slightly lower precision.
+
 
 ## How to Run the Notebook
 ### 1. Install Dependencies
